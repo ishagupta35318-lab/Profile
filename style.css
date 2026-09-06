@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: White ;
+}
+
+/* Navigation bar */
+header {
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Home section */
+#home {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background-color: #222;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+.projects-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card h3 {
+    font-size: 24px;
+}
+
+.project-card p {
+    color: #555;
+    line-height: 1.5;
+}
+/* Dark Mode */
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode #home {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .project-card {
+    background-color: #2b2b2b;
+}
+
+.dark-mode .project-card p {
+    color: #ddd;
+}
+
+#home img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit:contain ;
+}
+
+#home h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+/* All sections */
+section {
+    padding: 50px 10%;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
